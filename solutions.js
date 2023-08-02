@@ -58,3 +58,49 @@ function addOne(input){
 return Number(input) + 1;
 
 }
+
+// Define a function named isEven that takes in a single input. If the input is an even number or a string containing an even number, return true. Any other input should return false for the output.
+//
+// isEven(2)                   // true
+// isEven(-8)                  // true
+// isEven(0)                   // true
+// isEven("42")                // true
+// isEven(1)                   // false
+// isEven("-3")                // false
+// isEven(false)               // false
+// isEven("banana")            // false
+
+function isEven(input){
+
+    // if(typeof input === "boolean"){
+    //     return false;
+    // }
+
+    if(isFalse(input) || isTrue(input)){
+        return false;
+    }
+
+    return input % 2 === 0;
+}
+
+// Define a function named isIdentical that takes in two input arguments. If each input is equal both in data type and in value, then return true. If the values are not the same data type or not the same value, return false.
+//
+// isIdentical(3, 3)                     // true
+// isIdentical(false, false)             // true
+// isIdentical("hello", "hello")         // true
+// isIdentical(3, 3.0)                   // true
+// isIdentical(undefined, undefined)     // true
+// isIdentical(2, "2")                   // false
+// isIdentical("javascript", "java")     // false
+
+function isIdentical(input1, input2){
+
+    return input1 === input2;
+}
+
+// Define a function named isEqual that takes in two input arguments. If each argument is equal only in value, then return true. Otherwise return false.
+
+function isEqual(input1, input2){
+
+    return input1 == input2;
+}
