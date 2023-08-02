@@ -124,7 +124,7 @@
         
 ## Files in this project
 - `readme.html` is the welcome page
-- `index.html` shows the ouptut from automated test data
+- `index.html` shows the output from automated test data
 - `solutions.js` is where you will write your function definitions that solve the exercises below
 - `tests.js` is the suite of automated tests that call your functions in `solutions.js` with different inputs.
 
